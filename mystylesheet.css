@@ -1,0 +1,29 @@
+.mainheading{
+    text-align: center;
+    color:red;
+    }
+    
+body{
+    background:url("http://www.intrawallpaper.com/static/images/hd_wallpaper_perfect_backgrounds_2053_high_quality_B4wHeA3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    margin:2%;
+}
+
+a:hover{
+    color:red;
+}
+
+h2{
+    color:red;
+}
+
+.container{
+   margin-left: 30%; 
+}
+
