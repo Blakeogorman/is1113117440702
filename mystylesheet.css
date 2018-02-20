@@ -1,10 +1,13 @@
 .mainheading{
     text-align: center;
     color:red;
+    position:absolute;
+    top:0%;
+    left:40%;
     }
     
 body{
-    background:url("http://www.intrawallpaper.com/static/images/hd_wallpaper_perfect_backgrounds_2053_high_quality_B4wHeA3.jpg");
+    background:url("http://20.theladbiblegroup.com/s3/content/3d6372f256a01bc0e624618f6e233d2a.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -25,5 +28,41 @@ h2{
 
 .container{
    margin-left: 30%; 
+
+}
+ul {
+    position: absolute;
+    top:10%;
+    left:0;
+    background-color: #333;
+    width:100%;
+    height:10%;
+    
+}
+
+ul li {
+    position: relative;
+    display:inline;
+    top:30%;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin:20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+marquee{
+    position:absolute;
+    top:30%;
 }
 

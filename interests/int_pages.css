@@ -1,16 +1,35 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    background-image: url(https://www.usnews.com/dims4/USNEWS/e0897f1/2147483647/resize/1200x%3E/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F05%2Fa3%2F14365c1642cc922cae6e79cca81a%2Fbc16-spain-gallery-01.JPG);
+background-size: 100%100%;
+background-repeat: no-repeat;
+    
 }
 
 #section2{
-    background-color: rgb(44,62,80);
+    background-image: url(http://www.steveirwinday.org/assets/img/home/carousel/steve_3.jpg);
+    background-size: 100%100%;
+background-repeat: no-repeat;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background-image: url(http://images.kuoni.co.uk/73/north-america-40593953-1483705296-ImageGalleryLightboxLarge.jpg);
+background-size: 100%100%;
+background-repeat: no-repeat;
+    
 }
 
 .section{
     text-align: center;
     color: white ;
+    font-size: x-large
+}
+
+#section3{
+    text-align: center;
+    color: black ;
+    font-size: x-large
+}
+
+.sports{
+    background-color: red
 }
