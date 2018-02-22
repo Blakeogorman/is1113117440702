@@ -26,10 +26,53 @@ background-repeat: no-repeat;
 
 #section3{
     text-align: center;
-    color: black ;
+    color: #993399 ;
     font-size: x-large
 }
 
-.sports{
-    background-color: red
+#part1{
+    background-image: url("https://m0.sportsjoe.ie/wp-content/uploads/2016/12/06121301/inpho_01107532.jpg");
+background-size: 100%100%;
+background-repeat: no-repeat;
+    
 }
+#part2{
+     background-image: url("https://static.pexels.com/photos/390051/surfer-wave-sunset-the-indian-ocean-390051.jpeg");
+background-size: 100%100%;
+background-repeat: no-repeat;
+color: #00ffff;
+}
+
+#part3{
+
+     background-image: url("http://www.irishrugby.ie/images/news/inpho_00977024_rdax_650x365_80.jpg");
+background-size: 100%100%;
+background-repeat: no-repeat;
+text-align: center;
+color: #4d0000;
+}
+
+#sec1{
+  background-image: url("https://tctechcrunch2011.files.wordpress.com/2017/05/onedrive-illo3.jpg");
+background-size: 100%100%;
+background-repeat: no-repeat;
+text-align: center;
+color: red;
+font-size: x-large
+}
+    
+#sec2{
+    background-color: black;
+    text-align: center;
+color: white;
+font-size: small;
+    
+
+}
+
+
+
+
+
+
+    
