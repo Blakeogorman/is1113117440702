@@ -5,6 +5,10 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+
+        <link rel="stylesheet" href="shop.css" type="text/css" />
+        
+        
         <title>Enter Details</title>
         
         <!--jQuery-->

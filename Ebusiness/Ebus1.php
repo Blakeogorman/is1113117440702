@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Select Product</title>
+        <link rel="stylesheet" href="../vendor.css" type="text/css" />
+        <link rel="stylesheet" href="shop.css" type="text/css" />
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -9,7 +11,7 @@
 
     </head>
     
-    <body>
+    <body id="purchase">
         
             <h4>Select a Product</h4>
             

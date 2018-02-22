@@ -37,3 +37,10 @@ li a:hover {
     background-repeat: no-repeat;
     text-align: center
 }
+
+h1 {
+    display:inline;
+    color:black;
+    text-align:center;
+    font-size:x-large
+}
