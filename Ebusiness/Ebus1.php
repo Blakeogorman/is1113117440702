@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Select Product</title>
-        <link rel="stylesheet" href="../vendor.css" type="text/css" />
         <link rel="stylesheet" href="shop.css" type="text/css" />
         
         <!--jQuery-->

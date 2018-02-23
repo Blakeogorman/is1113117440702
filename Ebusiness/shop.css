@@ -1,9 +1,9 @@
 #purchase{
     text-align: center;
     color: white ;
-    font-size: x-large;
+    font-size: large;
     background-image: url("http://www.accidentalshakespeare.com/upload/2018/01/22/sagacity-media-web-page-background-color-l-0b65473bf297a78a.jpg");
-background-size: 100%100%;
+background-size: cover;
 background-repeat: no-repeat;
 
     
