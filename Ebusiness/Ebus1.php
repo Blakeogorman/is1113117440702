@@ -31,14 +31,46 @@
               </label>
               
               <br/>
-              <br/>
               
-              <label for="subtotal">
-                Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <label for="Cloud9">
+                <input type="radio" id="Cloud9" name="product" checked onClick="disablebtnProceed()"/>
+                Cloud9 @ $200
               </label>
               
               <br/>
+              
+                <label for="Gmail">
+                <input type="radio" id="Gmail" name="product" checked onClick="disablebtnProceed()"/>
+                Gmail @ $400
+              </label>
+              
+             </br>
+             </br>
+              
+              <label for="SubTotal">
+                Sub Total
+                <input type="text" id="SubTotal" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              <br/>
+              
+              <label for="Discount">
+                Discount(10%)
+                <input type="text" id="Discount" value="0.00" readonly/>
+              </label>
+              
+               <br/>
+              <br/>
+              
+                <label for="VAT">
+                VAT(10%)
+                <input type="text" id="VAT" value="0.00" readonly/>
+              </label>
+              
+                <br/>
+              <br/>
+              
               
               <label for="total">
                 Total
@@ -52,8 +84,15 @@
             </form>
             
             <br/>
-            <button onClick="calcSub()">Calculate Cost</button>
+            <button id="calculate" onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
+            
+             <?php
+            // Set session variables
+            $_SESSION["total"] = $_POST["total"];
+             $_SESSION["user_email"] = $_POST["user_email"];
+              $_SESSION["user_name"] = $_POST["user_name"];
+            ?>
     
     </body>
 </html>

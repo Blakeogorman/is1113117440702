@@ -54,7 +54,90 @@ background-size: cover;
 background-repeat: no-repeat;
 text-align: center
 }
+.us{
+     background-color:white;
+    
+}
+
+img{ 
+    position:absolute;
+    left:38%;
+    width:300;
+    height:200;
+    top:15%;
+} 
+#what{
+    text-align: center;
+    top:100%;
+}
+#what h2{
+    color: red;
+}
+    
+.salesforce img{
+    position: fixed;
+    left:0;
+    bottom:10%;
+    height:200px;
+    width:175px;
     
     
+}    
+.salesforce{
+    position: absolute;
+    top:5%;
+    width:1150px;
+    height:218px;
+    left:15%;
+    background-color:#80ff80;
     
+}
+.salesforce h4{
+    color:blue;
+
+}
+.cloud9 img{
+    top:40%;
+    position:fixed;
+    left:0%;
+    height:130;
+    width:230;
+}
+
+.cloud9{
+    position: absolute;
+    top:38%;
+    left:18%;
+    background-color: #ff4d4d;
+    width:1110px;
+    height:168px;
+}
+.gmail img{
+    left:0;
+    top:61%;
+    position:fixed;
+    height:130;
+    width:230;
+}
+.gmail{
+    position:absolute;
+    left:18%;
+    top:63%;
+    background-color:#66ffff;
     
+}
+#amazon img{
+    
+    left:0%;
+    top:80%;
+    position:fixed;
+    height:130;
+    width:230;
+}
+#amazon{
+    position: absolute;
+    left:18%;
+    top:80%;
+      background-color:#ffff33;
+}
+

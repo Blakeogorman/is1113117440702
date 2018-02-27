@@ -98,7 +98,7 @@ th, td {
   background-size: cover;
     background-repeat: no-repeat;
      text-align: center;
-     color: #009933;
+     color: red;
 }
 #personal{
      background:url("https://previews.123rf.com/images/icetray/icetray1605/icetray160500590/56186468-blake-word-on-red-wall.jpg");
@@ -106,8 +106,53 @@ th, td {
     background-repeat: no-repeat;
      text-align: center;
      color:  white ;
+     
+    
+}
+#personal img{
+    position:fixed;
+    width:200px;
+    height:200px;
+    left:5%;
+    top:10%;
+}
+.button{
+    position: absolute;
+    bottom: 5%;
+    left:50%;
 }
 .element{
    margin-left: 30%; 
 
+}
+#info{
+    position: absolute;
+    right:20%;
+    top:10%;
+
+}
+#info strong{ 
+    color: blue;
+}
+#work strong{
+    color:black;
+}
+#work h1{
+    color:blue;
+
+
+}
+
+    
+
+.seperatep{
+    position:absolute;
+    text-align:center;
+    bottom:30%;
+}
+#personal h2{
+    position:absolute;
+    color:blue;
+    bottom:40%;
+    left:45%;
 }

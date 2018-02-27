@@ -32,24 +32,36 @@ background-repeat: no-repeat;
 
 #part1{
     background-image: url("https://m0.sportsjoe.ie/wp-content/uploads/2016/12/06121301/inpho_01107532.jpg");
-background-size: 100%100%;
+background-size: cover;
 background-repeat: no-repeat;
-    
+text-align: left;
 }
+#part1 strong{
+    color:red;
+}
+    
+
 #part2{
      background-image: url("https://static.pexels.com/photos/390051/surfer-wave-sunset-the-indian-ocean-390051.jpeg");
-background-size: 100%100%;
+background-size: cover;
 background-repeat: no-repeat;
-color: #00ffff;
+color: black;
+text-align: center;
+
+
 }
 
 #part3{
 
-     background-image: url("http://www.irishrugby.ie/images/news/inpho_00977024_rdax_650x365_80.jpg");
+     background-image: url("https://www.worldgym.com/root/clientImages/WGY9999/WHYWORLDGYM11.jpg?1501583975455");
 background-size: 100%100%;
 background-repeat: no-repeat;
-text-align: center;
-color: #4d0000;
+text-align: absolute;
+color: red;
+
+}
+#part3 strong{
+    color:blue;
 }
 
 #sec1{
@@ -84,6 +96,13 @@ padding:1%;
 border-radius:15%;
 }
 
+.success{
+ background: green;
+    position:absolute;
+    top:90%;
+    left:45%;
+padding:1%;
+border-radius:15%;
 
 
 
