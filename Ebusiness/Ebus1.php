@@ -20,14 +20,14 @@
               
               <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                SalesForce @ $100
+                salesforce @ $100
               </label>
               
               <br/>
               
               <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $300
+                aws @ $300
               </label>
               
               <br/>

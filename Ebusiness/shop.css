@@ -1,22 +1,10 @@
 #purchase{
     text-align: center;
-    color: white ;
+    color: red ;
     font-size: large;
-    background-image: url("http://www.accidentalshakespeare.com/upload/2018/01/22/sagacity-media-web-page-background-color-l-0b65473bf297a78a.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-
-    
-}
-
-body{
-      text-align: center;
-    color: white ;
-    font-size: x-large;
     background-image: url("http://www.acutweb.com/wp-content/uploads/2015/02/image5.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-height:100%;
 
 }
 #cash{
