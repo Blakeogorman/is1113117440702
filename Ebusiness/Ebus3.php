@@ -20,5 +20,11 @@ session_start();
         echo "Name: " . $_SESSION["user_name"] . "</br>";
         echo "Email: " . $_SESSION["user_email"] . "</br>";
         ?>
+        
+        <div class="thanks">
+            <h3><strong>THANK YOU FOR SHOPPING WITH US</strong></h3>
+               <a href="../home/homepage.html" class="end">Home</a>
+        </div>
+        <a href="../homepage.html" class="end">Home</a>
     </body>
 </html>

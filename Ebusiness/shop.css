@@ -1,19 +1,21 @@
 #purchase{
     text-align: center;
-    color: red ;
+    color: black ;
     font-size: large;
     background-image: url("http://www.acutweb.com/wp-content/uploads/2015/02/image5.jpg");
 background-size: cover;
 background-repeat: no-repeat;
+height:100%
 
 }
 #cash{
     text-align: center;
     position: absolute;
     background-image: url("https://wallpapertag.com/wallpaper/full/3/c/d/282149-popular-simple-background-2880x1800.jpg");
-    background-size: cover;
 background-repeat: no-repeat;
 height:100%;
+left:40%;
+color:white;
 }
 #btnProceed{
     background-color: green;
@@ -38,10 +40,23 @@ border-radius:15%;
     position: absolute;
      text-align: center;
      color:black;
-     left:45%;
+     left:30%;
      top:10%;
-    background: url("https://static.pexels.com/photos/531880/pexels-photo-531880.jpeg");
+    background-color: white ;
     background-size: cover;
 background-repeat: no-repeat;
 height:100%;
+}
+#thanks{
+    color:red;
+    position:absolute;
+    top:90%;
+}
+.end{
+     background: green;
+    position:absolute;
+    top:60%;
+    left:45%;
+padding:1%;
+border-radius:15%;
 }
