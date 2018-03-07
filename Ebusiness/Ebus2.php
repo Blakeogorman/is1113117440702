@@ -11,7 +11,22 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="Ebus2.validator.js"></script>
     </head>
-    <body id="cash">
+    <body>
+        
+             <div class="one">
+        
+  <a href="../homepage.html">Return</a>
+  <a href=" ../Cloud/aboutus.html">About Us </a>
+  <a href="../Cloud/aboutcloud.html">About Cloud</a>
+  <a href ="../Ebusiness/Ebus1.php"> Products </a>
+</div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<div id="cash">
         <h4>Please enter your payment details</h4>
         
         
@@ -49,6 +64,6 @@ session_start();
             
             
             ?>
-        
+        </div>
     </body>
 </html>
