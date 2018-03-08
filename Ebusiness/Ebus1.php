@@ -11,19 +11,17 @@
     </head>
     
     <body>
-          <div class="one">
-        
+      <div class="one">
   <a href="../homepage.html">Return</a>
   <a href=" ../Cloud/aboutus.html">About Us </a>
   <a href="../Cloud/aboutcloud.html">About Cloud</a>
   <a href ="../Ebusiness/Ebus1.php"> Products </a>
-</div>
-        
-        </br>
-        </br>
-        </br>
-        </br>
-        <div id="purchase">
+  </div>
+  </br>
+  </br>
+  </br>
+  </br>
+ <div id="purchase">
             <h4>Select a Product</h4>
             
             <br/>
@@ -88,8 +86,9 @@
                 Total
                 <input type="text" id="total" name="total" value="0.00" readonly/>
               </label>
-      </div>  
+    
               <br/>
+              </div>
               
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
@@ -105,6 +104,6 @@
              $_SESSION["user_email"] = $_POST["user_email"];
               $_SESSION["user_name"] = $_POST["user_name"];
             ?>
-     
+    
     </body>
 </html>
