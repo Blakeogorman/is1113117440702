@@ -4,11 +4,14 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+          <meta charset="UTF-8">
         <title>RECEIPT</title>
+          <!--linking to stylesheet-->
          <link rel="stylesheet" href="shop.css" type="text/css" />
     </head>
     <body>
                   <div class="one">
+                        <!--dividing header from rest of page/text-->
         
   <a href="../homepage.html">Return</a>
   <a href=" ../Cloud/aboutus.html">About Us </a>
@@ -17,6 +20,7 @@ session_start();
 </div>
 <div id="receipt">
         <h1>RECEIPT</h1>
+          <!--info to last page-->
                  <?php
                  $_SESSION["user_email"] = $_POST["user_email"];
               $_SESSION["user_name"] = $_POST["user_name"];

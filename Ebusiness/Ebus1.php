@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Select Product</title>
         <link rel="stylesheet" href="shop.css" type="text/css" />
         
@@ -11,6 +12,7 @@
     </head>
     
     <body>
+      <!--dividin the header from rest of text-->
       <div class="one">
   <a href="../homepage.html">Return</a>
   <a href=" ../Cloud/aboutus.html">About Us </a>
@@ -21,6 +23,7 @@
   </br>
   </br>
   </br>
+  <!--putting the prices on the radio buttons-->
  <div id="purchase">
             <h4>Select a Product</h4>
             
@@ -89,6 +92,7 @@
     
               <br/>
               </div>
+              <!--adding buttons-->
               
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
@@ -97,7 +101,7 @@
             <br/>
             <button id="calculate" onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
-            
+            <!--geting the information used to the receipt page-->
              <?php
             // Set session variables
             $_SESSION["total"] = $_POST["total"];

@@ -5,6 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+          <meta charset="UTF-8">
         <title>Enter Details</title>
          <link rel="stylesheet" href="shop.css" type="text/css" />
         <!--jQuery-->
@@ -14,7 +15,7 @@ session_start();
     <body>
         
              <div class="one">
-        
+        <!--dividing header from rest of page/text-->
   <a href="../homepage.html">Return</a>
   <a href=" ../Cloud/aboutus.html">About Us </a>
   <a href="../Cloud/aboutcloud.html">About Cloud</a>
@@ -26,6 +27,7 @@ session_start();
 </br>
 </br>
 </br>
+  <!--Essential information-->
 <div id="cash">
         <h4>Please enter your payment details</h4>
         
@@ -57,7 +59,7 @@ session_start();
             
             <br/>
             <button onClick="validateDetails()">Validate</button>
-            
+              <!--getting that info to the last page-->
             <?php
             // Set session variables
             $_SESSION["total"] = $_POST["total"];
